@@ -57,6 +57,15 @@ a:hover {
   text-transform: uppercase;
 }
 
+/* Download button */
+.btn {
+  text-decoration: none;
+  background: #EF233C;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
 
 /* Header and Footer
 -------------------------*/
@@ -67,6 +76,7 @@ header, footer {
 /* header */
 header {
   padding-top: 50px;
+  position: relative;
 }
 header h1, header h2 {
   color: #EDF2F4;
@@ -75,6 +85,12 @@ header h1, header h2 {
 .profile-img {
   border-radius: 50%;
 }
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 /* footer */
 footer {
   text-align: center;
@@ -82,7 +98,6 @@ footer {
 .contact-info a {
   padding: 10px;
   display: inline-block;
-  z-index: 100;
 }
 
 
